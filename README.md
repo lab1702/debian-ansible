@@ -10,7 +10,7 @@ Ansible configuration that can be used with Debian 13.
 
 ### Run this as root to apply the config to your workstation
 
-    ansible-pull -U https://github.com/lab1702/ubuntu-ansible.git
+    ansible-pull -U https://github.com/lab1702/debian-ansible.git
 
 ## OpenCode
 
