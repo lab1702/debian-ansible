@@ -12,6 +12,13 @@ Ansible configuration that can be used with Debian 13.
 
     ansible-pull -U https://github.com/lab1702/debian-ansible.git
 
+## Optional: Add yourself to sudo and docker groups
+
+***Edit the username here to be your own***
+
+    usermod -aG sudo lab
+    usermod -aG docker lab
+
 ## OpenCode
 
     curl -fsSL https://opencode.ai/install | bash
