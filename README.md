@@ -4,11 +4,11 @@ Ansible configuration that can be used with Debian 13.
 
 ## Complete Workstation Setup
 
-### Run this once after installing the OS
+### Run this as root once after installing the OS
 
     apt update && apt upgrade -y && apt install -y git ansible
 
-### Run this to apply the config to your workstation
+### Run this as root to apply the config to your workstation
 
     ansible-pull -U https://github.com/lab1702/ubuntu-ansible.git
 
