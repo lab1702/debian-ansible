@@ -11,6 +11,7 @@
   - name: install packages
     ansible.builtin.package:
       name:
+        - snapd
         - build-essential
         - emscripten
         - docker.io
