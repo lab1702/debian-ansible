@@ -13,6 +13,7 @@
       name:
         - snapd
         - build-essential
+        - quickemu
         - emscripten
         - docker.io
         - docker-buildx
@@ -79,6 +80,7 @@
         - eza
         - tree
         - gdu
+        - ncdu
         - fastfetch
         - cpufetch
         - figlet
