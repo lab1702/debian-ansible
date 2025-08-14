@@ -19,6 +19,10 @@ Ansible configuration that can be used with Debian 13.
     usermod -aG sudo lab
     usermod -aG docker lab
 
+## Claude Code
+
+    curl -fsSL https://claude.ai/install.sh | bash
+
 ## OpenCode
 
     curl -fsSL https://opencode.ai/install | bash
@@ -29,7 +33,7 @@ Ansible configuration that can be used with Debian 13.
 
 ## NodeJS
 
-*This is needed if you want to install Artillery, Claude Code, Gemini CLI and other npm packages.*
+*This is needed if you want to install NPM packages to your home directory.*
 
 ### Configure npm to install packages in user home directory
 
@@ -41,15 +45,3 @@ Ansible configuration that can be used with Debian 13.
 ## Artillery Load Tester
 
     npm install -g artillery@latest
-
-## Claude Code
-
-    npm install -g @anthropic-ai/claude-code
-
-## Codex CLI
-
-    npm install -g @openai/codex
-
-## Gemini CLI
-
-    npm install -g @google/gemini-cli
